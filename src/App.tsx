@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Profile from './components/Profile';
 import CounterContainer from './containers/CounterContainer';
+import TodoListContainer from './containers/TodoListContainer';
 // import TodoList from './components/TodoList';
 
 // import CounterContainer from './containers/CounterContainer';
@@ -15,6 +16,7 @@ class App extends React.Component {
           job="react expert"
         />
         <CounterContainer/>
+        <TodoListContainer />
         {/* <TodoList/> */}
         {/* <CounterContainer />
         <TodoListContainer /> */}
